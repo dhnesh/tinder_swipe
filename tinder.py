@@ -22,11 +22,11 @@ driver.switch_to_window(driver.window_handles[1])
 print driver.title
 email=driver.find_element_by_id("email")
 
-email.send_keys('dhneshwod@gmail.com')
+email.send_keys('dgtd@gmail.com')
 
 passw=driver.find_element_by_id("pass")
 
-passw.send_keys('ma@rk@12')
+passw.send_keys('mt512')
 driver.find_element_by_id("loginbutton").click()
 driver.switch_to_window(driver.window_handles[0])
 
